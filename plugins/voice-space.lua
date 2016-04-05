@@ -17,7 +17,7 @@ local text = matches[1]
       else
   local url = "http://tts.baidu.com/text2audio?lan=en&ie=UTF-8&text="..textc
   local receiver = get_receiver(msg)
-  local file = download_to_file(url,'Hextor.ogg')
+  local file = download_to_file(url,'Turbo.ogg')
       send_audio('chat#id'..msg.to.id, file, ok_cb , false)
 end
 end
