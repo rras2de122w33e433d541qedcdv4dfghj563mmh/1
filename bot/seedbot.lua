@@ -225,7 +225,6 @@ function create_config( )
     "invite",
     "all",
     "leave_ban",
-    "LinkPv",
     "ad",
     "antiflood",
     "lock_tag",
