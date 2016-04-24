@@ -1,12 +1,3 @@
---[[
-
-#
-#       @GPMod
-#   @dragon_born
-#
-
-]]
-
 local apikey = 
 'Enter Your Clash API here' 
 local function run(msg, matches)
