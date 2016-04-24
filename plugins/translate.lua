@@ -66,5 +66,3 @@ return {
 }
 
 end
---@Hextor_ch
---@Hextor_admin
