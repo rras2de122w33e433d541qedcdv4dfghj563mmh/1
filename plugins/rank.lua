@@ -15,6 +15,7 @@ local function run(msg, matches)
     send_document(get_receiver(msg), "./rank/mod.webp", ok_cb, false)
       return "مدیر گروه هستی دیگه💙"
     else
+    send_document(get_receiver(msg), "./rank/member.webp", ok_cb, false)
       return "شما کاربر معمولی هستید💔"
   end
 end
