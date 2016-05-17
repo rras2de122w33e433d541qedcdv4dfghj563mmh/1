@@ -1,5 +1,5 @@
 local function run(msg, matches)
-if matches[1]:lower() == 'del' then 
+if matches[1]:lower() == 'clean' then 
       if not is_sudo(msg) then
         return "فقط مخصوص سودو!"
       end
@@ -25,7 +25,7 @@ end
 
 return {
   patterns = {
-  "[!/#]([Dd]el) (.*)$",
+  "[!/#]([Cc]lean) (.*)$",
   },
   run = run
 }
