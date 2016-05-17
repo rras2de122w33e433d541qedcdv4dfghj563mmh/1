@@ -38,7 +38,7 @@ function on_getting_dialogs(cb_extra,success,result)
   end
 end
 function run(msg, matches)
-  if not is_admin1(msg) then
+  if not is_admin(msg) then
     return "شما دسترسی کنترل سرور را ندارید"
   end
   local receiver = get_receiver(msg)
