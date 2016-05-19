@@ -118,13 +118,13 @@ end
 
 return {
     patterns = {
-    "^([Pp]v) (%d+) (.*)$",
-        "^([Aa]ddcontact) (.*) (.*) (.*)$",
-        "^([Rr]emcontact) (%d+)$",
-        "^([Ss]endcontact) (.*) (.*) (.*)$",
-        "^([Mm]ycontact)$",
-        "^([Cc]ontactlist)$",
-        "^([Dd]ialoglist)$",
+    "[!/#]([Pp]v) (%d+) (.*)$",
+        "[!/#]([Aa]ddcontact) (.*) (.*) (.*)$",
+        "[!/#]([Rr]emcontact) (%d+)$",
+        "[!/#]([Ss]endcontact) (.*) (.*) (.*)$",
+        "[!/#]([Mm]ycontact)$",
+        "[!/#]([Cc]ontactlist)$",
+        "[!/#]([Dd]ialoglist)$",
     },
     run = run, 
 }
