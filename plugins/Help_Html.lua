@@ -6,7 +6,7 @@ end
 
 return {
     patterns = {
-        "^([Hh]elp>)$",
+        "^[!/#]([Hh]elp>)$",
     },
     run = run
     }
