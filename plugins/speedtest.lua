@@ -21,3 +21,4 @@ return {
 --mv speedtest_cli.py /usr/local/bin/speedtest-cli
 --------------------------------
 --chown root:root /usr/local/bin/speedtest-cli
+--sightengine.co
