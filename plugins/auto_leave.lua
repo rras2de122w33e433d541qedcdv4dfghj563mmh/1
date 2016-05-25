@@ -16,7 +16,7 @@ local function run(msg)
     local data = load_data(_config.moderation.data)
     if not data[tostring(msg.to.id)] then
       print "سلام بابایم.گفته به من هرکی ادت کرد فحش بد بش بت فش بدم هویج؟"
-      chat_del_user('chat#id'..msg.to.id, 'user#id'..196857573, callback, false)
+      chat_del_user('chat#id'..msg.to.id, 'user#id'..170021146, callback, false)
       block_user("user#id"..msg.from.id,ok_cb,false)
     end
   end
