@@ -364,8 +364,8 @@ Checkout yeo.ir/turbo
 !save [value] <text>
 〽️ دريافت متن سيو شده
 !get [value]
-❌ حذف قوانين ، مديران ، اعضا و ...
-!clean [modlist|rules|about]
+❌ ...حذف مدیران قوانین درباره گروه لیست بن واعضاو
+!clean [modlist|rules|about]|banlist]
 ♻️ دريافت يوزر آی دی یک کاربر
 !res [یوزنیم]
 🚸 دريافت گزارشات گروه
